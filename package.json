@@ -1,0 +1,31 @@
+{
+  "name": "rncommon",
+  "version": "1.0.0",
+  "description": "React Native Package base project",
+  "main": "rnframe",
+  "repository": "git@github.com:bluceshang/rnmultiple_jscommon.git",
+  "author": "shangshaoshan <bluceshang@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "immutable": "^4.0.0-rc.12",
+    "react": "16.6.1",
+    "react-native": "0.57.5"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "eslint-plugin-react": "^7.11.1",
+    "flow-bin": "0.78.0",
+    "jest": "23.6.0",
+    "metro": "^0.49.2",
+    "metro-core": "^0.49.2",
+    "metro-react-native-babel-preset": "0.49.2",
+    "react-test-renderer": "16.6.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
