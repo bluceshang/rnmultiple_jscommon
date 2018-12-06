@@ -7,7 +7,8 @@
   "author": "shangshaoshan <bluceshang@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start"
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "build:base": "node node_modules/react-native/local-cli/cli.js bundle --platform android --dev false --entry-file src/main.js  --bundle-output bundle/base.android.bundle --assets-dest bundle/"
   },
   "dependencies": {
     "crypto": "^1.0.1",

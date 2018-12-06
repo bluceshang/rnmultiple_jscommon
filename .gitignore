@@ -1,4 +1,11 @@
-
+#依赖库
 node_modules
 
+#idea 文件
 .idea
+
+#打出的包
+bundle
+
+#生成的临时文件
+common.mainfest.json
